@@ -1,0 +1,40 @@
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/add">Add</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/view">View</a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand ml-auto" routerLink="/home">Employee Manager</a>
+  </nav>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top" src="https://www.villanovau.com/wp-content/uploads/2019/10/Future-HR-Roles.jpg?w=724&h=375&crop=1" alt="Employee Image" height="500">
+          <div class="card-body">
+            <h5 class="card-title">Employee Management</h5>
+            <div class="mt-5">
+              <button type="button" class="btn btn-success btn-lg btn-block" routerLink="/add">Add Employee</button>
+            </div>
+            <div class="mt-2">
+              <button type="button" class="btn btn-primary btn-lg btn-block" routerLink="/view">View Employees</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
